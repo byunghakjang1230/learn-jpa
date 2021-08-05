@@ -32,4 +32,8 @@ public class User {
     public int getAge() {
         return age;
     }
+
+    public void updateName(String name) {
+        this.name = name;
+    }
 }

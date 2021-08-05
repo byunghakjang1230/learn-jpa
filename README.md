@@ -23,6 +23,12 @@
 - [X] DB Connect 및 JPA 실행 테스트
 
 #### Step2. Entity 기본 생성 및 간단한 CRUD 실습
+- [X] `CRUD` 테스트
+    + [X] `persis` 메소드를 사용하여 객체를 `DB`에 저장.
+    + [X] `find` 메소드를 사용하여 객체를 `DB`에서 조회.
+    + [X] `find`로 조회한 객체를 수정하여 `DB` 값 수정.(???) - 다음 스텝에서 설명.
+    + [X] `find`로 조회한 객체를 `remove`를 사용하여 `DB`에서 삭제.
+
 #### Step3. 영속성 관리
 #### Step4. Entity 맵핑
 #### Step5. 연관관계 맵핑
