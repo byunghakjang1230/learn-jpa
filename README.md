@@ -38,9 +38,24 @@
   + [X] flush 동작
   + [X] 준영속 상태 만들기
   + [X] 삭제 상태 만들기
-  + [X] 가타 테스트 코드 작성
+  + [X] 기타 테스트 코드 작성
 
-#### Step4. Entity 맵핑
+#### Step4. Entity 매핑
+- [X] 기본 객체 매핑 : [블로그 학습 내용 참고](https://byunghakjang1230.notion.site/Entity-b0e18c82933246ee87148a3841a7749c)
+  + [X] `@Entity` 어노테이션
+    * [X] 테이블명 수정
+  + [X] `@Id` 어노테이션 PK 지정
+  + [X] `@Column` 어노테이션
+    * [X] 각종 속성 수정
+  + 기타 타입 컬럼 맵핑
+    * [X] `@Temporal`, `@Enumerated`, `@Lob`, `@Transient` 어노테이션 사용
+  + [X] `@GeneratedValue` 어노테이션
+    * [X] 기본키 자동 생성 전략 테스트
+      - [X] IDENTITY
+      - [X] SEQUENCE
+      - [X] TABLE
+      - [X] AUTO
+
 #### Step5. 연관관계 맵핑
 #### Step6. 프록시???
 #### Step7. 값 매핑

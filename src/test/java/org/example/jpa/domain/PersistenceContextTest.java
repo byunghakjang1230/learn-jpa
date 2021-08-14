@@ -171,8 +171,4 @@ class PersistenceContextTest extends EntityManagerTest {
         print("====== Transaction End!");
         tx.commit();
     }
-
-    private void print(String msg) {
-        System.out.println(msg);
-    }
 }

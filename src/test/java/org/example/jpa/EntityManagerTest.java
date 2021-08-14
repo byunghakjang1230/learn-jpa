@@ -15,4 +15,8 @@ public class EntityManagerTest {
         em = JpaEntityManagerFactoryUtil.createEntityManager();
         tx = em.getTransaction();
     }
+
+    protected void print(String msg) {
+        System.out.println(msg);
+    }
 }
