@@ -65,8 +65,8 @@
     * [X] 일대일
     * [X] 다대다
 - 기타 고급 매핑
-  + [ ] 상속관계 매핑
-  + [ ] `@MappedSuperclass`
+  + [X] 상속관계 매핑
+  + [X] `@MappedSuperclass`
 
 #### Step6. 프록시???
 #### Step7. 값 매핑
