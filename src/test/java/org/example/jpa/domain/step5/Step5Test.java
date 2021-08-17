@@ -23,9 +23,9 @@ class Step5Test extends EntityManagerTest {
     void association_1N() {
         tx.begin();
         OneToManyTeam team = new OneToManyTeam("hi");
-        em.persist(team);
         OneToManyMember member = new OneToManyMember("hi");
         team.getMembers().add(member);
+        em.persist(team);
         em.persist(member);
         tx.commit();
     }
@@ -52,6 +52,14 @@ class Step5Test extends EntityManagerTest {
         member.getTeams().add(team);
         team.getMembers().add(member);
         em.persist(member);
+        tx.commit();
+    }
+
+    @Test
+    void oneTable_insert() {
+        tx.begin();
+        OneTableBook book = new OneTableBook("hi", 12000, "name");
+        em.persist(book);
         tx.commit();
     }
 }
